@@ -1,3 +1,5 @@
+// Below is deprecated. It was just for educational purpose.
+
 var EventsEmitter = require("events");
 var util = require("util");
 
