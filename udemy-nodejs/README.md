@@ -1,5 +1,9 @@
 # Learn and Understand NodeJs
 
+To refresh and recall my NodeJS understanding, took this course found on udemy about NodeJS. Although this is quite an old course and some of the material is outdated, I enjoyed the learning and found many interesting items worth noting. 
+
+Below are the notes from the course. 
+
 NodeJs is a C++ program with V8 embedded that has added a wealth of great features to make it suitable to be a server technology.
 
 NodeJs is a server technology designed to able to use JavaScript to write server code.
@@ -103,3 +107,13 @@ Callbacks that take an error object as their first parameter.
 ### Abstract (base) class :
 
 A type of constructor you never work directly with, but inherit from.
+
+We create new custom objects which inherit from the abstract base class.
+
+### Pipe :
+
+Connecting two streams by writing to one stream what is being read from another. In Node you pipe from a readable stream to a writable stream.
+
+### MIME type :
+
+A standard for specifying the type of data being sent. Stands for "Multipurpose Internet Mail Extensions". Eg. application/json, text/html, image/jpeg.
